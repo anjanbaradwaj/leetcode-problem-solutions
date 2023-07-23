@@ -22,6 +22,6 @@ public class GreatestCommonDivisorOfStrings {
     }
 
     public static int findGCD(int a, int b) {
-        return b == 0 ? a : findGCD(b, a%b);
+        return b == 0 ? a : findGCD(b, a % b);
     }
 }

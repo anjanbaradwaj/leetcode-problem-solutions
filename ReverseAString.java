@@ -13,9 +13,9 @@ public class ReverseAString {
     private static String reverseString(String str) {
         int start = 0;
         int end = str.length() - 1;
-        char [] arr = str.toCharArray();
+        char[] arr = str.toCharArray();
 
-        while(start < end){
+        while (start < end) {
             char temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
